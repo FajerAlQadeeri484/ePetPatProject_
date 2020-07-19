@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="304dp"
+    android:layout_height="100dp"
+    android:background="#F4F4F4">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="294dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundtextname"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:text="Button"
+        android:textAlignment="center"
+        android:textColor="#2F3543"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+</RelativeLayout>

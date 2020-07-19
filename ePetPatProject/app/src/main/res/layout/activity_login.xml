@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4E3E3"
+    tools:context=".Login">
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="274dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-26dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/roundtransparent"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:text="Sign in"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="185dp"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/thelogowithnamee" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="-2dp"
+        android:alpha="0.4"
+        android:layout_marginBottom="-177dp"
+        app:srcCompat="@drawable/chanel" />
+
+    <ImageView
+        android:id="@+id/imageView200"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="-175dp"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/chanel" />
+
+    <Button
+        android:id="@+id/signIUp"
+        android:layout_width="274dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="-38dp"
+        android:background="@drawable/roundtransparent2"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:text="Sign up"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

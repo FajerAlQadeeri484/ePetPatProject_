@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shop">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="#F4E3E3"/>
+
+    <Button
+        android:id="@+id/otherOnOff"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginEnd="351dp"
+        android:background="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/litterOnOff"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="350dp"
+        android:background="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/toysOnOff"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="352dp"
+        android:background="#00FFFFFF" />
+
+    <ImageView
+        android:id="@+id/otherOn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="501dp"
+        app:srcCompat="@drawable/otheron" />
+
+    <ImageView
+        android:id="@+id/otherOff"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="501dp"
+        app:srcCompat="@drawable/otheroff" />
+
+    <ImageView
+        android:id="@+id/toysOff"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="284dp"
+        app:srcCompat="@drawable/toysoff" />
+
+    <ImageView
+        android:id="@+id/toysOn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="284dp"
+        app:srcCompat="@drawable/toyson" />
+
+    <ImageView
+        android:id="@+id/litterOff"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/litteroff" />
+
+    <ImageView
+        android:id="@+id/litterOn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/litteron" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="108dp"
+        app:srcCompat="@drawable/search" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#F4E3E3">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="61dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="9dp"
+            android:alpha="0.5"
+            app:srcCompat="@drawable/thelogo" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#F4E3E3"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="27dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="338dp"
+        android:layout_marginTop="109dp"
+        app:srcCompat="@drawable/cart" />
+    <ImageView
+        android:id="@+id/imageView152"
+        android:layout_width="27dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="338dp"
+        android:layout_marginTop="109dp"
+        app:srcCompat="@drawable/cart" />
+
+    <ImageView
+        android:id="@+id/foodOff"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="173dp"
+        app:srcCompat="@drawable/foodoff" />
+
+    <ImageView
+        android:id="@+id/foodOn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="173dp"
+        app:srcCompat="@drawable/foodon" />
+
+    <Button
+        android:id="@+id/foodOnOff"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="352dp"
+        android:background="#00FFFFFF" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/foodRecyclerView"
+        android:layout_width="327dp"
+        android:layout_height="433dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="6dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/toysRecyclerView"
+        android:layout_width="327dp"
+        android:layout_height="433dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="6dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/litterRecyclerView"
+        android:layout_width="327dp"
+        android:layout_height="433dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="6dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/otherRecyclerView"
+        android:layout_width="327dp"
+        android:layout_height="433dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="6dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1004921297374",
+    "firebase_url": "https://epetpat.firebaseio.com",
+    "project_id": "epetpat",
+    "storage_bucket": "epetpat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004921297374:android:3c6946e9e673491a2be54f",
+        "android_client_info": {
+          "package_name": "com.example.epetpat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004921297374-1sdk2makjcq33bd7vveu2urq93b6ndu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmP6Asgs6DtlNXMVuIYcu1EjQ5fxCHlWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004921297374-1sdk2makjcq33bd7vveu2urq93b6ndu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
